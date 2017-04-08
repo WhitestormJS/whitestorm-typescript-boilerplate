@@ -2,10 +2,6 @@
   "atom": {
     "rewriteTsConfig": true
   },
-  "typeRoots": [
-    "typings/global",
-    "typings/modules"
-  ],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
