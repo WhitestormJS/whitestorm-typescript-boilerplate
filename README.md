@@ -3,18 +3,18 @@
 [![Dependency Status](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate.svg)](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate)
 [![devDependency Status](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate/dev-status.svg)](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate#info=devDependencies)
 
-**WhiteStorm TypeScript Boilerplate** is a starter kit for crafting  3D applications using modern technologies like WhitestormJS, three.js, TypeScript, React and Redux.
-
-## Libraries
-This starter kit uses the following libraries and tools:
-
-#### Core
+**WhiteStorm TypeScript Boilerplate** is a starter kit for crafting  3D applications using modern technologies:
+- [TypeScript](https://www.typescriptlang.org/)
 - [WhiteStormJS](https://whsjs.io)
 - [three.js](https://threejs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [React](https://github.com/facebook/react) & [React DOM](https://github.com/facebook/react) for views.
+- [React](https://github.com/facebook/react) & [Redux](https://github.com/reactjs/redux)
+
+## Libraries
+This starter kit also uses the following libraries and tools:
+
+#### Core
+- [React DOM](https://github.com/facebook/react) for views.
 - [React Router](https://github.com/reactjs/react-router) to handle in-app routing.
-- [Redux](https://github.com/reactjs/redux) for managing application state.
 - [React-Redux](https://github.com/reactjs/react-redux) to use React-Redux bindings.
 - [React-Router-Redux](https://github.com/reactjs/react-router-redux) to keep application state sync with route changes.
 
@@ -42,7 +42,6 @@ This starter kit uses the following libraries and tools:
   - [Extract Text Plugin](https://github.com/webpack/extract-text-webpack-plugin) for exporting bundled css.
   - [tslint Loader](https://github.com/wbuchwalter/tslint-loader) for using tslint as preloader on build process.
   - [stylelint Loader](https://github.com/adrianhall/stylelint-loader) for using stylelint as preloader on build process.
-  - [Istanbul Instrumenter Loader](https://github.com/deepsweet/istanbul-instrumenter-loader) for using istanbul on postload process while generating code coverage reports.
 
 #### Dev & Prod Server
 - [Webpack Dev Server](https://github.com/webpack/webpack-dev-server)
@@ -61,15 +60,7 @@ This starter kit uses the following libraries and tools:
 - [Chalk](https://github.com/chalk/chalk) for colored terminal logs.
 
 #### Testing
-- [Karma](https://github.com/karma-runner/karma) as test runner with following plugins
-  - [Karma-Webpack](https://github.com/webpack/karma-webpack)
-  - [Karma-Mocha](https://github.com/karma-runner/karma-mocha)
-  - [Karma-Chai](https://github.com/xdissent/karma-chai)
-  - [Karma-Coverage](https://github.com/karma-runner/karma-coverage)
-  - [Karma-PhantomJS Launcher](https://github.com/karma-runner/karma-phantomjs-launcher)
-- [Mocha](https://github.com/mochajs/mocha) as testing framework.
-- [Chai](https://github.com/chaijs/chai) as assertion library.
-- [Enzyme](https://github.com/jquery/jquery) for rendering React Components.
+- [Jest](https://facebook.github.io/jest/) for unit testing.
 - [Fetch Mock](https://github.com/wheresrhys/fetch-mock) for testing async actions.
 - [Redux Mock Store](https://github.com/arnaudbenard/redux-mock-store) for creating mock stores.
 
@@ -78,7 +69,6 @@ This starter kit uses the following libraries and tools:
 .
 ├── build                       # Built, ready to serve app.
 ├── config                      # Root folder for configurations.
-│   ├── test                    # Test configurations.
 │   ├── types                   # Global type definitions, written by us.
 │   ├── webpack                 # Webpack configurations.
 │   └── main.ts                 # Generic App configurations.
