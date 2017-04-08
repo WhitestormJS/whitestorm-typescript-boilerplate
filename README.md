@@ -1,7 +1,7 @@
 # WhiteStormJS - React/Redux - three.js - TypeScript boilerplate
 [![Build Status](https://travis-ci.org/whitestormJS/whitestorm-typescript-boilerplate.svg?branch=master)](https://travis-ci.org/whitestormJS/whitestorm-typescript-boilerplate)
-[![Dependency Status](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate.svg)]()
-[![devDependency Status](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate/dev-status.svg)]()
+[![Dependency Status](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate.svg)](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate)
+[![devDependency Status](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate/dev-status.svg)](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate#info=devDependencies)
 
 **WhiteStorm TypeScript Boilerplate** is a starter kit for crafting  3D applications using modern technologies like WhitestormJS, three.js, TypeScript, React and Redux.
 
