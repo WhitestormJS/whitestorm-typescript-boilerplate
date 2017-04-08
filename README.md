@@ -1,5 +1,5 @@
 # WhiteStormJS - React/Redux - three.js - TypeScript boilerplate
-[![Build Status](https://travis-ci.org/whitestormJS/whitestorm-typescript-boilerplate.svg?branch=master)](https://travis-ci.org/whitestormJS/whitestorm-typescript-boilerplate)
+[![Build Status](https://travis-ci.org/WhitestormJS/whitestorm-typescript-boilerplate.svg?branch=master)](https://travis-ci.org/WhitestormJS/whitestorm-typescript-boilerplate)
 [![Dependency Status](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate.svg)](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate)
 [![devDependency Status](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate/dev-status.svg)](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate#info=devDependencies)
 
