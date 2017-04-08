@@ -41,7 +41,11 @@
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
-    "moduleDirectories": ["node_modules", "app", "app/redux"],
+    "moduleDirectories": [
+      "node_modules",
+      "app",
+      "app/redux"
+    ],
     "moduleFileExtensions": [
       "ts",
       "tsx",
@@ -82,6 +86,7 @@
     "classnames": "^2.2.5",
     "cross-env": "^4.0.0",
     "css-loader": "^0.28.0",
+    "enzyme": "^2.8.0",
     "extract-text-webpack-plugin": "^2.0.0-beta.5",
     "fetch-mock": "^5.8.1",
     "file-loader": "^0.11.1",
