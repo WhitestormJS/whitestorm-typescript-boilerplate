@@ -12,7 +12,7 @@
     "prestart": "npm run build",
     "start": "node build/server.js",
     "start:prod": "cross-env NODE_ENV=production npm start",
-    "test": "karma start config/test/karma.conf.js",
+    "test": "jest",
     "lint": "tslint \"src/**/**.ts*\""
   },
   "author": "Hirako2000 <hirako2000@gmail.com>",
@@ -39,6 +39,18 @@
     "chai"
   ],
   "license": "MIT",
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleDirectories": ["node_modules", "app", "app/redux"],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  },
   "devDependencies": {
     "@types/base16": "^1.0.1",
     "@types/chai": "^3.4.34",
@@ -46,6 +58,7 @@
     "@types/enzyme": "^2.7.1",
     "@types/history": "^4.5.0",
     "@types/isomorphic-fetch": "0.0.33",
+    "@types/jest": "^19.2.2",
     "@types/mocha": "^2.2.38",
     "@types/node": "^7.0.0",
     "@types/react": "^15.0.0",
@@ -108,6 +121,7 @@
     "source-map-loader": "^0.2.1",
     "style-loader": "^0.16.1",
     "stylelint": "^7.7.1",
+    "ts-jest": "^19.0.8",
     "tslint": "^4.3.1",
     "tslint-loader": "^3.3.0",
     "tslint-react": "^2.3.0",
