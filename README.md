@@ -10,7 +10,7 @@ This starter kit uses the following libraries and tools:
 
 #### Core
 - [WhiteStormJS](https://whsjs.io)
-- [three.js](https://threejs.io)
+- [three.js](https://threejs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://github.com/facebook/react) & [React DOM](https://github.com/facebook/react) for views.
 - [React Router](https://github.com/reactjs/react-router) to handle in-app routing.
@@ -97,7 +97,6 @@ This starter kit uses the following libraries and tools:
 │   ├── index.html              # root page template
 │   └── server.tsx              # Entry point for server of static content.
 ├── typings                     # Type definitions installed with typings.              
-├── .dockerignore               # Tells docker which files to ignore.
 ├── .gitignore                  # Tells git which files to ignore.
 ├── .stylelintrc                # Configures stylelint.
 ├── Dockerfile                  # Dockerfile.
