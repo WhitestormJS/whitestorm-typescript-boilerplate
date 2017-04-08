@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+.AppContainer {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  color: white;
+  text-shadow: 1px 1px 2px #383838;
+}

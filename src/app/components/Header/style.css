@@ -1,0 +1,16 @@
+.Nav {
+  & ul {
+    list-style-type: none;
+    padding: 0;
+
+    & li {
+      display: inline;
+      padding: 5px;
+
+      & a {
+        text-shadow: 1px 1px 2px #383838;
+        color: white;
+      }
+    }
+  }
+}
