@@ -9,6 +9,10 @@
 - [three.js](https://threejs.org/)
 - [React](https://github.com/facebook/react) & [Redux](https://github.com/reactjs/redux)
 
+## [Video](https://streamable.com/nvvlv)
+
+[![](http://i.imgur.com/QUPK7Ej.jpg)](https://streamable.com/nvvlv)
+
 ## Libraries
 This starter kit also uses the following libraries and tools:
 
