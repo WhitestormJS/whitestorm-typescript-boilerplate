@@ -13,6 +13,10 @@
 
 [![](http://i.imgur.com/QUPK7Ej.jpg)](https://streamable.com/nvvlv)
 
+## Dynamic updates - Redux
+
+![](http://i.imgur.com/JQoXKp1.png)
+
 ## Libraries
 This starter kit also uses the following libraries and tools:
 
