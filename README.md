@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/WhitestormJS/whitestorm-typescript-boilerplate.svg?branch=master)](https://travis-ci.org/WhitestormJS/whitestorm-typescript-boilerplate)
 [![Dependency Status](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate.svg)](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate)
 [![devDependency Status](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate/dev-status.svg)](https://david-dm.org/whitestormJS/whitestorm-typescript-boilerplate#info=devDependencies)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/hirako2000/polypack/blob/master/LICENSE)
 
 **WhiteStorm TypeScript Boilerplate** is a starter kit for crafting  3D applications using modern technologies:
 - [TypeScript](https://www.typescriptlang.org/)
