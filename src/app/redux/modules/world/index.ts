@@ -44,7 +44,7 @@ export function remove(): IWorldAction {
 }
 
 function newWorld() {
-  const cameraModule = new WHS.app.CameraModule({
+  const cameraModule = new WHS.CameraModule({
     position: {
       z: 30,
       y: 40
@@ -53,13 +53,13 @@ function newWorld() {
     near: 1
   });
 
-  const controlsModule = new WHS.controls.OrbitModule();
+  const controlsModule = new WHS.OrbitControlsModule();
 
   const world = new WHS.App([
-    new WHS.app.ElementModule(),
-    new WHS.app.SceneModule(),
+    new WHS.ElementModule(),
+    new WHS.SceneModule(),
     cameraModule,
-    new WHS.app.RenderingModule({
+    new WHS.RenderingModule({
       bgColor: 0x2a3340,
 
       renderer: {
@@ -70,7 +70,7 @@ function newWorld() {
       }
     }),
     controlsModule,
-    new WHS.app.ResizeModule()
+    new WHS.ResizeModule()
   ]);
 
   new WHS.AmbientLight({

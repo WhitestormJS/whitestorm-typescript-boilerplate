@@ -1,7 +1,7 @@
 const style = require('./style.css');
 
 import * as React from 'react';
-import * as WHS from 'whs/build/whitestorm';
+import * as WHS from 'whs';
 import * as THREE from 'three';
 
 import { add, remove } from 'modules/world/';
