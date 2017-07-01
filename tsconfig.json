@@ -19,6 +19,7 @@
     "experimentalDecorators": true,
     "noUnusedParameters": true,
     "noUnusedLocals": true,
+    "allowJs": true,
     "jsx": "react",
     "moduleResolution": "node"
   },
