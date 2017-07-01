@@ -1,5 +1,5 @@
 import { IWorld, IWorldAction } from 'models/world';
-import * as WHS from 'whs/build/whitestorm';
+import * as WHS from 'whs/build/whs';
 import * as THREE from 'three';
 
 /** Action Types */

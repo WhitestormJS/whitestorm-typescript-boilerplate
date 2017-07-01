@@ -136,6 +136,6 @@
     "redux-logger": "^3.0.1",
     "redux-thunk": "^2.2.0",
     "serve-favicon": "^2.3.2",
-    "whs": "^2.0.0-beta.9.1"
+    "whs": "^2.0.0"
   }
 }
