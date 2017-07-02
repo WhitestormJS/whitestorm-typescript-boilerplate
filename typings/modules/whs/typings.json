@@ -1,8 +1,0 @@
-{
-  "resolution": "main",
-  "tree": {
-    "src": "/Users/meed/dev/whitestorm-typescript-boilerplate-clean/src/app-definitions/whs.d.ts",
-    "raw": "file:./src/app-definitions/whs.d.ts",
-    "typings": "/Users/meed/dev/whitestorm-typescript-boilerplate-clean/src/app-definitions/whs.d.ts"
-  }
-}
