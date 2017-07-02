@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as WHS from 'whs';
+import {Box} from 'whs';
 import * as THREE from 'three';
 
 import { add, remove } from 'modules/world/';
@@ -53,15 +53,24 @@ class Cube extends React.Component<IProps, any> {
 
       this.setState({material});
 
-      const object = new WHS.Box({
-        geometry: [15, 15, 15],
+      const object = new Box({
+        geometry: {
+          width: 15,
+          height: 15,
+          depth: 15
+        },
+
         material,
 
         shadow: {
           receive: false
         },
 
-        position: [0, 0, 0]
+        position: {
+          x: 0,
+          y: 0,
+          z: 0
+        }
       });
 
       this.setState({object});

@@ -36,7 +36,7 @@ node_modules
 .DS_STORE
 
 # TypeScript
-# typings // TODO renable this once whs provides proper types
+typings
 
 # JetBrains
 .idea

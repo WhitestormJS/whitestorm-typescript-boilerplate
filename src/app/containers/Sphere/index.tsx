@@ -1,7 +1,7 @@
 const style = require('./style.css');
 
 import * as React from 'react';
-import * as WHS from 'whs';
+import {Sphere as wSphere} from 'whs';
 import * as THREE from 'three';
 
 import { add, remove } from 'modules/world/';
@@ -53,15 +53,24 @@ class Sphere extends React.Component<IProps, any> {
 
       this.setState({material});
 
-      const object = new WHS.Sphere({
-        geometry: [8, 16, 16],
+      const object = new wSphere({
+        geometry: {
+           radius: 8,
+           widthSegments: 16,
+           heightSegments: 15
+        },
+
         material,
 
         shadow: {
           receive: false
         },
 
-        position: [0, 0, 0]
+        position: {
+          x: 0,
+          y: 0,
+          z: 0
+        }
       });
 
       this.setState({object});
