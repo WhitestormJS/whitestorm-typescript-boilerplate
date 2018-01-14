@@ -4,7 +4,6 @@
     "tslint-react"
   ],
   "rules": {
-    "no-new": 0,
     "trailing-comma": [
       false,
       {
