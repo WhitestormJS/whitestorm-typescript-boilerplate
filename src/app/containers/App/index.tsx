@@ -19,4 +19,4 @@ class App extends React.Component<any, any> {
   }
 }
 
-export { App }
+export { App };

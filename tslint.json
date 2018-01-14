@@ -4,7 +4,6 @@
     "tslint-react"
   ],
   "rules": {
-    "no-new": 0,
     "trailing-comma": [
       false,
       {
@@ -33,6 +32,8 @@
     ],
     "jsx-alignment": [
       false
-    ]
+    ],
+    "no-implicit-dependencies": false,
+    "no-submodule-imports": false
   }
 }
