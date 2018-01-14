@@ -33,6 +33,8 @@
     ],
     "jsx-alignment": [
       false
-    ]
+    ],
+    "no-implicit-dependencies": false,
+    "no-submodule-imports": false
   }
 }

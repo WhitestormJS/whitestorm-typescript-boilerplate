@@ -3,8 +3,7 @@ import {Box} from 'whs';
 import * as THREE from 'three';
 
 import { add, remove } from 'modules/world/';
-import { IWorld } from 'models/world';
-import { IWorldAction } from 'models/world';
+import { IWorld, IWorldAction } from 'models/world';
 const { connect } = require('react-redux');
 
 interface IProps {
@@ -25,6 +24,7 @@ class Cube extends React.Component<IProps, any> {
 
   public constructor(props) {
     super(props);
+
     this.state = {
       world: null,
       object: null,
@@ -90,4 +90,4 @@ class Cube extends React.Component<IProps, any> {
   }
 }
 
-export { Cube }
+export { Cube };

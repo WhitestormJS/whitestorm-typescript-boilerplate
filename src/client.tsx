@@ -4,27 +4,26 @@ import * as e6p from 'es6-promise';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { Router, browserHistory } from 'react-router';
-import { syncHistoryWithStore } from 'react-router-redux';
-import { ReduxAsyncConnect } from 'redux-connect';
+import { ConnectedRouter } from 'react-router-redux';
+import createHistory from 'history/createBrowserHistory';
 import { configureStore } from './app/redux/store';
 import routes from './app/routes';
 // require('file-loader?name=[name].[ext]!./public/index.html');
+
+const history = createHistory();
+
 const store = configureStore(
-  browserHistory,
+  history,
   window.__INITIAL_STATE__
 );
-const history = syncHistoryWithStore(browserHistory, store);
-const connectedCmp = (props) => <ReduxAsyncConnect {...props} />;
 
 ReactDOM.render(
   <Provider store={store} key="provider">
-    <Router
+    <ConnectedRouter
       history={history}
-      render={connectedCmp}
     >
       {routes}
-    </Router>
+    </ConnectedRouter>
   </Provider>,
   document.getElementById('app')
 );
