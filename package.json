@@ -73,6 +73,7 @@
     "@types/redux-thunk": "^2.1.31",
     "@types/sinon": "^1.16.34",
     "@types/source-map": "^0.5.0",
+    "@types/tapable": "^0.2.5",
     "@types/three": "^0.84.15",
     "@types/uglify-js": "^2.6.28",
     "@types/webpack": "^2.2.2",
