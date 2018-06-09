@@ -5,7 +5,7 @@ import { IStore } from './IStore';
 
 const { reducer } = require('redux-connect');
 
-const rootReducer: Redux.Reducer<IStore> = combineReducers<IStore>({
+const rootReducer: Redux.Reducer<IStore> = combineReducers<any>({
   routing: routerReducer,
   world: worldReducer,
   reduxAsyncConnect: reducer
