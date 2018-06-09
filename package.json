@@ -1,6 +1,6 @@
 {
   "name": "whitestorm-typescript-boilerplate",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "A TypeScript boilerplate for building web applications with WhiteStormJS",
   "main": "build/server.js",
   "scripts": {
