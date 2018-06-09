@@ -1,14 +1,14 @@
 const appConfig = require('../../../config/main');
-import { createStore, applyMiddleware, compose } from 'redux';
+import { createStore, applyMiddleware, compose, Middleware, Store } from 'redux';
 import { routerMiddleware } from 'react-router-redux';
 import thunk from 'redux-thunk';
 import rootReducer from './reducers';
 import { IStore } from './IStore';
 import { createLogger } from 'redux-logger';
 
-export function configureStore(history, initialState?: IStore): Redux.Store<{}> {
+export function configureStore(history, initialState?: IStore): Store<{}> {
 
-  const middlewares: Redux.Middleware[] = [
+  const middlewares: Middleware[] = [
     routerMiddleware(history),
     thunk
   ];

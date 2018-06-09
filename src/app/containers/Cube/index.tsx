@@ -5,11 +5,12 @@ import * as THREE from 'three';
 import { add, remove } from 'modules/world/';
 import { IWorld, IWorldAction } from 'models/world';
 const { connect } = require('react-redux');
+import { ActionCreator } from 'redux';
 
 interface IProps {
   world: IWorld;
-  add: Redux.ActionCreator<IWorldAction>;
-  remove: Redux.ActionCreator<IWorldAction>;
+  add: ActionCreator<IWorldAction>;
+  remove: ActionCreator<IWorldAction>;
 }
 
 @connect(
