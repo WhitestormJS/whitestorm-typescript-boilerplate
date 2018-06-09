@@ -35,7 +35,7 @@ var config = {
   output: {
     path: path.resolve('./build/public'),
     publicPath: '/public/',
-    filename: 'js/[name].[chunkhash].js'
+    filename: 'js/[name].js'
   },
 
   module: {

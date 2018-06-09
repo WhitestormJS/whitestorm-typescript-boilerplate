@@ -42,7 +42,7 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public/index.html'));
 });
 
-app.listen(appConfig.port, appConfig.host, (err) => {
+app.listen(appConfig.port, (err) => {
   if (err) {
     console.error(Chalk.bgRed(err));
   } else {
