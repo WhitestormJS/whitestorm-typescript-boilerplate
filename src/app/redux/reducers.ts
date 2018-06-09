@@ -1,11 +1,11 @@
-import { combineReducers } from 'redux';
+import { combineReducers, Reducer } from 'redux';
 import { routerReducer } from 'react-router-redux';
 import { worldReducer } from './modules/world';
 import { IStore } from './IStore';
 
 const { reducer } = require('redux-connect');
 
-const rootReducer: Redux.Reducer<IStore> = combineReducers<any>({
+const rootReducer: Reducer<IStore> = combineReducers<any>({
   routing: routerReducer,
   world: worldReducer,
   reduxAsyncConnect: reducer
