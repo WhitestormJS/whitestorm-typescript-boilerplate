@@ -6,7 +6,7 @@
 
 **WhiteStorm TypeScript Boilerplate** is a starter kit for crafting  3D applications using modern technologies:
 - [TypeScript](https://www.typescriptlang.org/)
-- [WhiteStormJS](https://whsjs.io)
+- [WhiteStormJS](https://whs.io)
 - [three.js](https://threejs.org/)
 - [React](https://github.com/facebook/react) & [Redux](https://github.com/reactjs/redux)
 
